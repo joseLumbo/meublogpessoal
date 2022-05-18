@@ -13,7 +13,7 @@
 	<artifactId>meublogpessoal1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>meublogpessoal1</name>
-	<description>meublogpessoal</description>
+	<description>meublogpessoal1</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -42,10 +42,16 @@
 			<artifactId>commons-codec</artifactId>
 		</dependency>
 		<dependency>
+
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.8</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
@@ -57,6 +63,11 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -67,11 +78,6 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
